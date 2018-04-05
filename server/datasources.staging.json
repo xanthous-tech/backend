@@ -1,0 +1,12 @@
+{
+  "db": {
+    "name": "db",
+    "host": "localhost",
+    "port": 27017,
+    "url": "",
+    "database": "xanthous-db",
+    "user": "admin",
+    "password": "password",
+    "connector": "mongodb"
+  }
+}

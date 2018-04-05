@@ -1,0 +1,43 @@
+{
+  "name": "@xanthous/backend",
+  "version": "0.0.1",
+  "main": "server/server.js",
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "test": "echo \"Done\" && exit 0",
+    "lint": "eslint .",
+    "start": "node .",
+    "debug": "nodemon --inspect .",
+    "posttest": "npm run lint && nsp check"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "compression": "^1.0.3",
+    "cors": "^2.5.2",
+    "debug": "^3.1.0",
+    "helmet": "^3.12.0",
+    "loopback": "^3.0.0",
+    "loopback-boot": "^2.6.5",
+    "loopback-component-explorer": "^5.0.0",
+    "loopback-connector-mongodb": "^3.4.2",
+    "serve-favicon": "^2.0.1",
+    "strong-error-handler": "^2.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.10.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.7.0",
+    "nodemon": "^1.17.3",
+    "nsp": "^3.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xanthous-tech/backend.git"
+  },
+  "license": "MIT",
+  "description": "xanthous-backend"
+}
