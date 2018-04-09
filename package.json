@@ -2,6 +2,7 @@
   "name": "@xanthous/backend",
   "version": "0.0.1",
   "main": "server/server.js",
+  "private": true,
   "engines": {
     "node": ">=8"
   },
