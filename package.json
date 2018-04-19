@@ -1,6 +1,6 @@
 {
   "name": "@xanthous/backend",
-  "version": "0.1.24",
+  "version": "0.2.2",
   "main": "server/server.js",
   "private": true,
   "engines": {
